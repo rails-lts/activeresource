@@ -1,12 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails'
+gem 'rails', '~> 4.2.0'
 gem 'mime-types', '< 3'
 
-gemspec
-
-platform :mri do
-  group :test do
-    gem 'ruby-prof'
-  end
-end
+gemspec :path => '.'

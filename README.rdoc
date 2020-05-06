@@ -7,14 +7,14 @@ in ActionController::Resources).
 
 == LTS version
 
-This is a fork of Rails' official [active-resource gem](https://github.com/rails/activeresource), compatible with Rails 4.2 (LTS), with backportet security fixes for:
+This is a fork of Rails' official {active-resource gem}[https://github.com/rails/activeresource], compatible with Rails 4.2 (LTS), with backportet security fixes for:
 
 - CVE-2020-8151
 
 
 To use it, you need to add it to the Gemfile like this:
 
-gem 'activeresource', git: 'https://github.com/rails-lts/activeresource.git', branch: 'lts-4'
+  gem 'activeresource', git: 'https://github.com/rails-lts/activeresource.git', branch: 'lts-4'
 
 
 == Philosophy
